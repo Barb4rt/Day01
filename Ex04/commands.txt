@@ -1,0 +1,38 @@
+  372  cd Consoles/
+ 1335  mkdir test0 test1 test3 test5 
+ 1336  touch test2 test4
+ 1337  ls -l -a
+ 1338  ls -l 
+ 1339  chmod 4 test1
+ 1340  ls -l 
+ 1341  chmod 744 test1
+ 1342  ls -l 
+ 1343  chmod 111  test5
+ 1344  ls -l 
+ 1345  touch -d "janv. 1 2077" test0
+ 1346  touch -dr "janv. 1 2077" test0
+ 1347  ls -l 
+ 1348  rm janv.\ 1\ 2077 
+ 1349  ls
+ 1350  ls -l 
+ 1351  touch -dr "janv. 1 2077" test0
+ 1352  ls -l
+ 1353  rm janv.\ 1\ 2077 
+ 1354  ls -l
+ 1355  touch -f "janv. 1 2077" test0
+ 1356  ls -l
+ 1357  rm janv.\ 1\ 2077 
+ 1358  ls -l
+ 1359  touch -d 20770101 test0
+ 1360  ls- l
+ 1361  ls -l
+ 1362  touch -d 20770101 test1
+ 1363  touch -d 20770101 test2
+ 1364  touch -d 20770101 test3
+ 1365  touch -d 20770101 test4
+ 1366  touch -d 20770101 test5
+ 1367  ls -l
+ 1368  ls -l -a
+ 1369  ls -l
+ 1370  history
+ 1371  history >> commands.txt
