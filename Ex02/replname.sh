@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -i 's/Elliot/Tyrell/g'
+sed -i "s/Elliot/Tyrell/g"
