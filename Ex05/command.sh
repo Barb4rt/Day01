@@ -1,4 +1,5 @@
 #!/bin/bash
 
-ls ; date ; who
+ls ; date ; who > resulta.txt
+
 
